@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ved Events</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="event.css" />
+    <style></style>
+  </head>
+  <body class="bomdy">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navi">
+      <div class="container">
+        <a class="navbar-brand lomgo" href="#">Ved Events</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto navul">
+            <li class="nav-item">
+              <a class="nav-link" href="#house">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#register">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#linkuu">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Event Listings -->
+    <div class="container mt-5" id="house">
+      <h1 class="up">Upcoming Events</h1>
+      <div class="row">
+        <!-- Event 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="birthday"
+              src="https://m.media-amazon.com/images/I/71i5k1PLSSL._AC_UF1000,1000_QL80_.jpg"
+              class="card-img-top"
+              alt="Event 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Birthday Event</h5>
+              <p class="card-text">Date: Septembar 26, 2023</p>
+              <p class="card-text">Location: Hayatt</p>
+              <a href="#register" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="col-md-4 mb-4 puja">
+          <div class="card">
+            <img
+              class="puja"
+              src="https://cdn4.vectorstock.com/i/1000x1000/93/18/print-happy-diwali-celebration-background-top-vector-34289318.jpg"
+              class="card-img-top"
+              alt="Event 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Laxmi Pujan</h5>
+              <p class="card-text">Date: November 10, 2023</p>
+              <p class="card-text">Location: Karve Nagar</p>
+              <a href="#register" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="col-md-4 mb-4 aniversary">
+          <div class="card">
+            <img
+              class="aniversary"
+              src="https://5.imimg.com/data5/SELLER/Default/2022/8/NP/YK/DU/138253089/anniversary-party-balloon-decoration-service.jpg"
+              class="card-img-top"
+              alt="Event 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Marriage Anniversary</h5>
+              <p class="card-text">Date: December 5, 2023</p>
+              <p class="card-text">Location: Shereton Grand</p>
+              <a href="#register" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mahiti" id="register">
+      <h2>Event Details</h2>
+      <p>Date: September 16, 2023</p>
+      <p>Location: Cadilac Raising the pool Bar</p>
+      <p>Description: Fresher's Party</p>
+      <p>Special Attraction: Pool party| Bollywood Music| Unlimitted Drinks</p>
+
+      <h2>Registration</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+
+    <!-- Schedule -->
+    <div class="container mt-5 eventdabba">
+      <h2>Event Schedule</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>9:00 AM - 10:30 AM</td>
+            <td>Opening Ceremony</td>
+          </tr>
+          <tr>
+            <td>11:00 AM - 1:00 PM</td>
+            <td>Seminar: Engineer's Day</td>
+          </tr>
+          <tr>
+            <td>2:00 PM - 4:00 PM</td>
+            <td>Workshop: Go cart Exibition</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="samparkadabba">
+      <div class="samparka" id="linkuu">
+        <h1>Contacts</h1>
+        <div class="contact">Contact No.: 8830981720</div>
+        <div class="mail">G-mail: vedevents@gmail.com</div>
+        <div class="social">
+          <a href="https://www.instagram.com/iamvedantbahadure____?r=nametag">
+            <img
+              class="logu"
+              src="https://pngimg.com/uploads/instagram/instagram_PNG10.png"
+              alt=""
+          /></a>
+          Instagram page
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footy">
+      <div class="hi">
+        <div class="services">
+          Services
+          <ul>
+            <li>Customer care</li>
+            <li>supports</li>
+            <li>Term & Condition</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        <div class="about">
+          About
+          <ul>
+            <li>More search</li>
+            <li>Trust</li>
+            <li>Events</li>
+            <li>Client satisfaction</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
